@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ubuntu', -apple-system, sans-serif;
+    background-color:black;
+    color:#FFFFFF;
+    
+}
+
+nav{
+    text-align:center;
+    color: #AFFC41;
+}
+
+
+h1 {
+    text-align:center;
+    font-size:75px;
+    font-weight: bolder;
+    color:#DB5461;
+}
+
+main {
+    text-align:left;
+    font-family: 'Ubuntu', -apple-system, sans-serif; 
+}
+
+a{
+    color:#AFFC41;
+}
+
+a:visited {
+    color:#0A8754;
+}
+
+img {
+    height: 65px;
+}
