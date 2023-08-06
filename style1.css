@@ -1,21 +1,30 @@
 body {
-    background-color:rgb(240, 233, 233);
-    color:#000;
+    background-color:#FFF;
+    color:#3C2A21;
     
 }
 
 nav{
-    text-align:center;
-    color: #AFFC41;
+    /* text-align:center; */
+    color: #7d83ff;
+    font-size: 1.5rem;
 }
 
+.navBox{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap:nowrap;
+    /* flex-basis: 100px; */
+    justify-content:space-evenly;
+}
 
 h1 {
     font-family: 'BioRhyme', serif;
     text-align:center;
     /* font-size:75px; */
     font-weight: bolder;
-    color:#DB5461;
+    color:#38686B;
+    font-size: 4rem;
 }
 
 h2,
@@ -27,17 +36,20 @@ h6{
 }
 
 
-p {
-    text-align:left;
-    font-family: 'Lato', sans-serif;
+p,
+ul {
+    /* text-align:left; */
+    font-family: 'Junge', sans-serif;
+    /* font-weight:bold; */
+    font-size: 1rem;
 }
 
 a{
-    color:#AFFC41;
+    color:#7d83ff;
 }
 
 a:visited {
-    color:#0A8754;
+    color:#7d83ff;
 }
 
 img {
