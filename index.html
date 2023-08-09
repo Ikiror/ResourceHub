@@ -1,178 +1,130 @@
 <!DOCTYPE html>
 <html>
 
-    <!-- stylesheet, title -->
+<!-- title name -->
     <head>
-        <!-- <link href = "./Fonts"> -->
-        <!-- Fonts: BioRhyme - headers; Lato - subheader; Junge - body; -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Junge&family=Lato:wght@100&display=swap" rel="stylesheet">
-        
-        <link href = "style1.css" rel = "stylesheet">
-        <title> Resource Hub </title>
+        <title> Project 1 : Resource Hub </title>
+        <link href = "style.css" rel = "stylesheet">
+
+         <!-- Fonts: BioRhyme - headers; Lato - subheader; Junge - body; -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Junge&family=Lato:wght@100&display=swap" rel="stylesheet">
+         
     </head>
 
-
-    <!-- main focus point = big welcome  -->
     <body>
-        <section class="navBox">
-            <header>
-                <h1 id = "top" >Welcome to My Resource Hub</h1>
-            </header>
-    
-    
-            <!-- navigation and links to diff sections -->
-            <nav class="navBox">
-                <p> 
-                    <a href = #purpose>Purpose</a>
+        <div class = topOfScreen>
+            <!-- header -->
+            <h1>
+                Resource Hub Central
+            </h1>
+            <!-- navigation tab -->
+            <navigation class = "nav">
+                <p>
+                    <a href = #purpose> Purpose </a>
                 </p>
                 <p>
-                    <a href = #resources>Resources</a>
+                    <a href = #resources> Resources </a>
                 </p>
                 <p>
-                    <a href = #bottom>Bottom of Page</a>
+                    <a href = #bottom> End of Content </a>
                 </p>
-            </nav>
-        </section>
-        
 
+            </navigation>
+        </div>
+    
+        <!-- purpose -->
+        <div id = 'purpose' class = "container">
+            <h2>
+                Purpose
+            </h2>
+            <p> 
+                This'll be a place for me to store resources I've found helpful. Maybe you'll find them helpful too. 
+            </p>
+        </div>
+        <!-- resource overview -->
+        <div id = 'resources'>
+            <h2>
+                Resources
+            </h2>
 
-        <!-- intro to the rest with a lil' purpose -->
-        <purpose >
-            <h2 class = "purposeHeader">Purpose</h2>
-            <p class = "purpose">This'll be a place for me to store resources I've found helpful. Maybe you'll find them helpful too</p>
-        </purpose>
+            <h3>
+                Intro
+            </h3>
 
-
-        <section id = "resources">
-            <h2>Resources</h2>
-            <p>Very different things have been so helpful when learning how to code </p>
             <p>
+                Very different things have been so helpful when learning how to code. You can find some of these listed and explored in depth down below.
                 <ul>
-                    <li> <a href = #learning>Learning code</a> </li>
+                    <li> <a href = #learning>Learning code and how to code</a> </li>
                     <li> <a href = #looks > Layout and looks </a> </li>
-                    <!-- <li> <a href = #docs> Cheatsheets and documentation </a> </li> -->
                     <li> <a href = #extras> Extras </a> </li>
                 </ul>
             </p>
 
-        
-        </section>
-    </body>
-        <!-- could make more .html and put each in their own and link them using a nav bar -->
-        <!-- and link them using <a href = "./X.html">Name</a> -->
-        <main class = "breakdown">
-            <!-- how to add the outside links <a href="https://www.wikipedia.org/" target = "_blank">This Is A Link To Wikipedia</a> -->
-                <section> 
-                    <h3 id = learning>Learning code</h3>
-                    <ul> 
-                        <li> <a href = "https://www.codecademy.com/learn" target="_blank">Codecademy</a> </li>
-                        <li> Youtube (here are some starters:)
-                            <ol>
-                                <li> <a href = "https://www.youtube.com/embed/InA5Ff7mxrc" target="_blank">CSS Visual Rules by Codecademy</a> </li>
-                                <iframe width="451" height="301" src="https://www.youtube.com/embed/InA5Ff7mxrc" title="Learn CSS Visual Rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            </ol>
-                        </li>
-                        <li> <a href = https://www.opcollege.org target="_blank">Opportunity College</a></li>
-                    </ul>
-                </section>
+            <!-- learning resources -->
+            <section id = 'learning' class = "container">
+                <h3>
+                    Learning code and how to code
+                </h3>
 
-            
-                <section>
-                    <h3 id = looks>Layout and Looks</h3>
+                <p>
                     <ul>
-                        <li> Wireframes 
-                            <br>
-                            Use them to your advantage to plan the layout of your website (here are some examples:)
-                            <ol>
-                                <li> <a href = https://claritee.io target="_blank">Claritee</a> </li>
-                            </ol>
-                        </li>
-                        <li>Color
-                            <br>
-                            Choose a color palette of your choice (here is a website you could try out:)
-                            <ol>
-                                <li> <a href = https://coolors.co target="_blank" >coolors.co </a> </li>
-                            </ol>
-                        </li>
-                        <li>Fonts
-                            <br>
-                            Choose a font of your choice (here is a website you could try out:)
-                            <ol>
-                                <li> <a href = https://fonts.google.com target="_blank">Google fonts</a> </li>
-                            </ol>
-                        </li>
-                        <li>Images
-                            <br>
-                            If you'd like to add images,here are websites you could try out:
-                            <ol>
-                                <li> <a href = https://unsplash.com target="_blank"> Unsplash </a> </li>
-                                <li> <a href = https://pinterest.com target="_blank"> Pinterest </a> </li>
-                            </ol>
-                        </li>
+                        <li> <a href = 'https://www.codecademy.com/learn' target = '_blank'> Codecademy</a> has been invaluable in learning the basics and getting the feel for new languages.</li>
+                        <li> Youtube is a wonderful  place to get additional insight on things you don't understand. The search bar is your best friend. Here's a <a href = '' target = 'blank' > video</a> on CSS (Cascading Style Sheets) that has helped me.</li>
+                        <li> <a href = 'https://www.opcollege.org' target='_blank'> Opportunity College </a> has been absolutely amazing and instrumental in my progress thus far. If you're looking for somewhere to learn with amazing people, consider applying; and if not, consider reaching out to see if you can give back/ help in some way.</li>
                     </ul>
-                </section>
+                </p>
+            </section>
 
-<!-- need to work on doc section: add links -->
-                <!-- <section>
-                    <h3 id = docs>Docs</h3>
-                    <ul>
-                        <li>Cheatsheets
-                            <br>
-                            You can find cheatsheets on anything: Command Line, HTML, CSS, JS, etc. Here are links to some:
-                            <ol>
-                                <li> <a href = # target="_blank"> CSS cheatsheet by </a> </li>
-                                <li> <a href = # target="_blank"> HTML cheatsheet by</a> </li>
-                                <li> <a href = # target="_blank"> Command Line cheatsheet by</a> </li>
-                                <li> <a href = # target="_blank"> CSS cheatsheet by </a> </li> -->
-                            </ol>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>Helpful Documentation
-                            <br>
-                            If you need additional clarity on things, documentation is the way to go. Here are some i've found helpful:
-                            <ol>
-                                <!-- <li> <a href = # target="_blank"> Mozilla documentation on</a> </li>
-                                <li> <a href = # target="_blank"> Wordpress documentation on</a> </li> -->
-                                <!-- <li> <a href = # target="_blank"> Accessibility documentation by </a> </li> --> 
+            <!-- layout and looks-->
+            <section id = 'looks' class = "container">
+                <h3>
+                    Layout and looks 
+                </h3>
 
-                            </ol>
-                        </li>
-                    </ul>
-                </section> 
-
-                <section>
-                    <h3 id = extras>Extras</h3>
+                <p>
                     <ul>
-                        <li>Music
-                            <br>
-                            My streaming service of choice - <a href = https://open.spotify.com/? target = _blank> Spotify </a>
-                            <ul>
-                                <li>my song of the moment:
-                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3LPRCFmqXUilyKIOT0EYDN?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" ></iframe>
-                                </li>
-                                <li>my study playlist of the moment:
-                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8f5qTGj8FYl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>Calendars
-                            <br>
-                            Planning out your time as you can is really helpful. My calendar of choice is <a href = https://calendar.google.com/calendar target="_blank">Google Calendar</a>
-                        </li>
+                        <li>Wireframes like <a href='https://claritee.io' target='_blank'> Claritee</a> are really helpful for planning the layout of your website</li>
+                        <li>Color is a very important component of the look of your website. If you can't choose, try a color generator like <a href='https://coolors.co' target = '_blank'> coolors.co</a></li>
+                        <li>The font is another very important component of the look of your website. If you can't decide or want to see how different fonts look together, try <a href = 'https://fontjoy.com' target ='_blank'>fontjoy.com</a> or use <a href = 'https://fonts.google.com' target = '_blank'> Google fonts</a> to browse.</li>
+                        <li>For visulas and pictures that are free and available to use for commercial or non-commercial reasons, check out <a href = 'https://unsplash.com' target = '_blank'> Unsplash</a></li>
                     </ul>
-                </section>                    
-        </main>
-        
-        <bottom id = "bottom">
-            <p>thanks for taking the time to look through 
-                <!-- <img src="./Media/yuyang-liu-VOV0q44b7R4-unsplash.jpg"/>  -->
+                </p>
+            </section>
+
+            <!-- extras -->
+            <section id = 'extras' class = "container">
+                <h3>
+                    Extras
+                </h3>
+
+                <p>
+                    <ul>
+                        <li>
+                            Music helps me get in the groove when coding. It also helps when decompressing from a particularly difficult piece of code. My streaming site of choice: <a href ='https://open.spotify.com' target ='_blank'>Spotify</a>
+                        </li>
+                        <li> Planning out my time so I know when I have time to learn coding, or time to work on a project is really helpful. I like <a href='https://calendar.google.com/calendar' target ='_blank'> Google Calendar for this</a> </li>
+                    </ul>
+                </p>
+
+
+            </section>
+
+
+
+        </div>
+        <div id = 'bottom'>
+            <p>
+                Thanks for taking the time to look through. I hope to update this as I continue learning - come check out the updates every once in a while. Find me on <a href ='https://github.com/Ikiror' target = '_blank'>Github</a>!
             </p>
-            
-            <h3> <a href = #top >Back to top</a> </h3>
-        </bottom>
-    
-      
+
+            <p class = 'end' >Fin</p>
+            <p><a href = 'topOfScreen'>Back to top</a></p>
+        </div>
+        
+
+
+    </body>
+</html>
