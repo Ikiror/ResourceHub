@@ -1,0 +1,57 @@
+*{
+    background-color:#000000;
+    color:#F9F4F5;
+    font-family: 'BioRhyme', serif;
+}
+
+a:visited {
+    color:#FF715B;
+}
+
+a:hover {
+    background-color:#0FA3B1;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:#d5b3ff;
+}
+
+h1 {
+    text-shadow:
+      1px 1px 1px #0FA3B1,
+      2px 2px 1px #0FA3B1;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* margin-right: auto; */
+
+}
+/* 
+@media screen and (max-width: 600px) {
+    body {
+        color: blue;
+    }
+} */
+
+.container {
+    height: 100vh;
+    }
+
+@media (max-width: 601px) {
+    .container {
+        height: 50vh;
+        background-color:olive;
+    }
+}
