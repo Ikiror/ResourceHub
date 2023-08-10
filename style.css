@@ -24,8 +24,9 @@ h6 {
 
 h1 {
     text-shadow:
-      1px 1px 1px #202020,
-      2px 2px 1px #202020;
+      1px 1px 1px #000000,
+      2px 2px 1px #6f6d6d,
+      4px 4px 2px #000000;
     font-size: 4rem;
     box-sizing: border-box;
     padding: 40px;
