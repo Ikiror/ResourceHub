@@ -33,13 +33,13 @@ h1 {
 
 }
 
-navigation{
+nav{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     box-sizing: border-box;
     padding: 30px;
-    width: 100vw;
+    font-size: calc(100% + .5vw);
     /* margin-right: auto; */
 
 }
